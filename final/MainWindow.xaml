@@ -1,0 +1,29 @@
+﻿<Window x:Name="Window" x:Class="final.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="295" Width="525">
+    <Grid>
+        <DockPanel HorizontalAlignment="Left" Height="27" LastChildFill="False" VerticalAlignment="Top" Width="517">
+            <Button Content="Save" Height="27" VerticalAlignment="Top" Width="55" Click="Save"/>
+            <Button Content="Save As" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="27" Click="Save_As"/>
+            <Button Content="Help" Height="27" VerticalAlignment="Top" Width="55" Click="Help"/>
+        </DockPanel>
+        <Label x:Name="statusLabel" Content="Name of file, current line #, # lines in file" Margin="0,27,0,0" VerticalAlignment="Top" Height="24"/>
+        <TextBox x:Name="commandLine" Text="=====>" Margin="0,51,0,0" VerticalAlignment="Top" Height="23" TextChanged="commandLine_TextChanged" AcceptsReturn="True"/>
+        <Popup Name="SearchPopup" Placement="Mouse">
+            <StackPanel Background="LightGray">
+                <Label x:Name="searchLabel" HorizontalAlignment="Center"></Label>
+                <Button Click="Hide_Search_Popup" Margin="10">Hide</Button>
+            </StackPanel>
+        </Popup>
+        <Popup Name="HelpPopup" Height ="300" Placement="Mouse">
+            <StackPanel Background="LightGray">
+                <TextBox x:Name="helpLabel" Height ="260" HorizontalAlignment="Center" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True"/>
+                <Button Click="Hide_Help_Popup" Margin="10">Hide</Button>
+            </StackPanel>
+        </Popup>
+        <TextBox x:Name="textArea" GotFocus="textArea_GotFocus" Margin="0,74,80,0" ScrollViewer.ScrollChanged="textArea_ScrollChanged"  TextChanged="textArea_TextChanged" SelectionChanged="textArea_SelectionChanged"  AcceptsReturn="True" AcceptsTab="True" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True"/>
+        <TextBox x:Name="suffixArea" TextChanged="suffixArea_TextChanged" ScrollViewer.ScrollChanged="suffixArea_ScrollChanged" Margin="0,74,-18,18" VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" AcceptsReturn="True" HorizontalAlignment="Right" Width="99"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,136 @@
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+----------------------Help Page--------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+
+---------------------------------------------------------
+-------------Command Line / Menu Commands:---------------
+---------------------------------------------------------
+Save
+Usage: Save
+
+Saves the document to the current file path. 
+If none exits, prompts the user for one
+---------------------------------------------------------
+Save As
+Usage: Save As
+
+Prompts user for a file path and saved the document to it.
+---------------------------------------------------------
+Open
+Usage: Open
+
+Prompts user to select a file to open
+---------------------------------------------------------
+Search
+Usage: Search <string s> <int n>
+
+Searches for s in n strings from the current line.
+---------------------------------------------------------
+#
+Usage: <int n>
+
+Scrolls the document so that line n is in view.
+---------------------------------------------------------
+Up #
+Usage: Up <int n>
+
+Scrolls the document up n lines.
+---------------------------------------------------------
+Down #
+Usage: Down <int n>
+
+Scrolls the document down n lines.
+---------------------------------------------------------
+Left #
+Usage: Left <int n>
+
+Scrolls the document left n lines.
+---------------------------------------------------------
+Right #
+Usage: Right <int n>
+
+Scrolls the document right n lines.
+---------------------------------------------------------
+Forward
+Usage: Forward
+
+Scrolls the page 1 "screenful" down.
+---------------------------------------------------------
+Back
+Usage: Back
+Scrolls the page 1 "screenful" up.
+---------------------------------------------------------
+Setcl #
+Usage: Setcl <int n>
+
+Sets the current line to n until further notice.
+---------------------------------------------------------
+Change
+Usage: Change <string s1> <string s2> <int n>
+
+Replaces any of string 1, found in n lines from the current line, with string 2.
+---------------------------------------------------------
+Help
+Usage: Help
+
+Displays help popup.
+
+---------------------------------------------------------
+-------------------Suffix Commands-----------------------
+---------------------------------------------------------
+i #
+Usage: i <int n>
+
+Inserts n blank lines after this line.
+---------------------------------------------------------
+x #
+Usage: x <int n>
+
+Exclude n lines from view and actions.
+Cannot exclude more than 1 "grouping" of lines.
+(excluded lines must be showed before excluding more lines)
+---------------------------------------------------------
+s #
+Usage: s <int n>
+
+Show n lines of those excluded.
+---------------------------------------------------------
+a
+Usage: a
+
+Inserts copied lines after this line
+---------------------------------------------------------
+b
+usage: b
+
+Insert copied lines before this line
+---------------------------------------------------------
+c #
+usage: c <int n>
+
+Copies n lines starting at this line
+Replaces previous copied lines.
+---------------------------------------------------------
+m #
+usage: m <int n>
+
+Moves n lines starting at this line.
+Does not move lines past end of file.
+---------------------------------------------------------
+"
+Usage: "
+
+Duplicate this line
+---------------------------------------------------------
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+\\Mac\Home\Desktop\final\final\bin\Debug\final.exe.config
+\\Mac\Home\Desktop\final\final\bin\Debug\final.exe
+\\Mac\Home\Desktop\final\final\bin\Debug\final.pdb
+\\Mac\Home\Desktop\final\final\obj\Debug\final.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\final\final\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\final\final\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\final\final\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\final\final\obj\Debug\final_MarkupCompile.cache
+\\Mac\Home\Desktop\final\final\obj\Debug\final.g.resources
+\\Mac\Home\Desktop\final\final\obj\Debug\final.Properties.Resources.resources
+\\Mac\Home\Desktop\final\final\obj\Debug\final.csproj.GenerateResource.Cache
+\\Mac\Home\Desktop\final\final\obj\Debug\final.exe
+\\Mac\Home\Desktop\final\final\obj\Debug\final.pdb
